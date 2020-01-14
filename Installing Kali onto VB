@@ -1,2 +1,13 @@
-Downloading and installing Kali Linux onto VirtualBox
-1.	hsdofhsdfsdf
+~~~~~~~~~~~~~~* Downloading and installing Kali Linux onto VirtualBox *~~~~~~~~~~~~~~~~
+
+
+***WORDS SURROUNDED BY ASTERIKS CARE DEFINED IN THE DEFINITIONS FILE IN THIS REPOSITORY****
+
+1.  Visit https://www.kali.org/downloads/ and select the appropriate *IMAGE*. 
+    If installing onto a raspberry pi, select an ARM image.
+    
+    The website suggests verifying the checksums. We will be skipping this step, but do look into it on your own time.
+
+2.  Open VirtualBox. If not already installed, download at https://www.virtualbox.org/
+
+3.  Select "new". This will create a new instance of a machine. You will be prompted to select your settings.
