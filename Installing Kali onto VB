@@ -32,5 +32,19 @@
     - Click create
     
     
-              ************* Before Starting your Virtual Machine ****************
-              You should now see the machine named "Kali" on the left hand side of the VirtualBox manager.
+              ****** Before Starting your Virtual Machine ********
+    - You should now see the machine named "Kali" on the left hand side of the VirtualBox manager.
+ 8. Select "settings" on the top of the manager.
+    - Go to Storage
+    - To the right of "Controller: IDE" select the blue circle with the green plus sign.
+    - Select Add
+    - Find wherever you stored the kali image and select open.
+    
+             ******* Starting the machine *********
+  9. Select start 
+        - select the disk as the Kali image.
+        - Select Live (AMD64)
+        - 
+ 
+ 
+ 
