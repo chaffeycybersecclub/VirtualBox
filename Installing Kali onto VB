@@ -3,11 +3,34 @@
 
 ***WORDS SURROUNDED BY ASTERIKS CARE DEFINED IN THE DEFINITIONS FILE IN THIS REPOSITORY****
 
-1.  Visit https://www.kali.org/downloads/ and select the appropriate *IMAGE*. 
-    If installing onto a raspberry pi, select an ARM image.
+1.  Visit https://www.kali.org/downloads/ and select the appropriate *IMAGE* (aka ISO). 
+              If installing onto a raspberry pi, select an ARM image.
     
-    The website suggests verifying the checksums. We will be skipping this step, but do look into it on your own time.
+              The website suggests verifying the checksums. We will be skipping this step, but do look into it on your own time.
 
 2.  Open VirtualBox. If not already installed, download at https://www.virtualbox.org/
 
 3.  Select "new". This will create a new instance of a machine. You will be prompted to select your settings.
+
+
+              ******SSETTUNG UP YOUR KALI VIRTUAL MACHINE******
+4. Name your machine. "Kali" is fine.
+    - "Type" will be Linux
+    - "Version" will be Debian, 64-bit.
+    - Click next
+
+5. Select the amount of RAM you will give the machine
+    - Set it to 4096 for now, but you can change it as you prefer.  
+    - Click next 
+    
+6. Select the hard disk for the machine. Choose "Create a virtual hard disk now.
+    - Select the Hard disk file type. Choose "VDI(VirtualBox Disk Image)"
+    - Click next
+    - Click next. Choose Dynamically allocated. Click next 
+    
+7. Select file location and size. Default is 8GB. 
+    - Click create
+    
+    
+              ************* Before Starting your Virtual Machine ****************
+              You should now see the machine named "Kali" on the left hand side of the VirtualBox manager.
